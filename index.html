@@ -1,0 +1,212 @@
+<html>
+<head>
+
+  <title>CLOUD</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <p class="title1">SIGN UP</p>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <br>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <br>
+      <label for="psw"><b>Password</b></label>
+      <br>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <br>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <br>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+<script>
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="images/lg3.png">  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </button>
+  <div class="container">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#top">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-us">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+  <button type="button" id="bttn" class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up </button>
+</nav>
+</section>
+<section id ="banner">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-6">
+  <p class="promo-title">CLOUD STORAGE</p>
+  <p>Cloud Storage provides you storage for all your photos, videos, music, files, documents, etc. Access all your data on our  cloud storage
+     from anywhere at anytime from your device.</p>
+         <button type="button" class="btn btn-primary">Upload</button>
+  </div>
+  <div class="col-md-6 text-center">
+    <img src="images/2.png" class="img-fluid">
+  </div>
+  </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container text-center">
+    <h1 class="title">WHAT WE OFFER?</h1>
+  <div class="row text-center">
+  <div class="col-md-4">
+    <img src="images/3.png" class="service-img">
+    <h4>Access from anywhere</h4>
+    <p>Access your files, folders and photos from anywhere at anytime.</p>
+  </div>
+  <div class="col-md-4">
+    <img src="images/1.png" class="service-img">
+    <h4>Secured storage</h4>
+    <p>Secured storage for all your documents, file and other data.</p>
+  </div>
+  <div class="col-md-4">
+    <img src="images/4.png" class="service-img">
+    <h4>Access from any device</h4>
+    <p>Access your files, folders and photos from any device.</p>
+  </div>
+  </div>
+  </div>
+</section>
+
+<section id="about-us">
+  <div class="container">
+  <h1 class="title text-center">WHY CHOOSE US?</h1>
+  <div class="row">
+  <div class="col-md-6">
+    <p class="about-title">Storage for all types of data</p>
+      <p>Store any type of data that you have such as PDF documents, word documents, images, videos and music. </p>
+  </div>
+  <div class="col-md-6">
+  <img src="images/cc.png" class="img-fluid">
+  </div>
+  </div>
+  </div>
+</section>
+
+
+<section id="abt">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-6">
+  <img src="images/acc.jpg" class="img-fluid2">
+  </div>
+  <div class="col-md-6">
+    <p class="about-title">Easy and faster access to all your files</p>
+      <p>Get access to all your data and files on the go from anywhere at anytime with our high speed cloud storage service.</p>
+  </div>
+  </div>
+  </div>
+</section>
+
+
+<section id="about-us">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-6">
+    <p class="about-title">Secured storage for your data</p>
+      <p>All your data is protected and secured on our cloud storage so that you never lose your data anymore. </p>
+  </div>
+  <div class="col-md-6">
+  <img src="images/5.png" class="img-fluid">
+  </div>
+  </div>
+  </div>
+</section>
+
+
+<section id="social-media">
+<div class="container text-center">
+<p>FIND US ON SOCIAL MEDIA</p>
+<div class="social-icons">
+  <a href="#"><img src="images/fb.png" alt=""></a>
+  <a href="#"><img src="images/insta.png" alt=""></a>
+  <a href="#"><img src="images/twt.png" alt=""></a>
+  <a href="#"><img src="images/whts.png" alt=""></a>
+  <a href="#"><img src="images/lin.png" alt=""></a>
+
+</div>
+</div>
+</section>
+
+
+<section id ="footer">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4 footer-box">
+    <img src="images/lg3.png">
+    <p><br>Cloud Storage provides you storage for all your photos, videos, music, files, documents, etc.</p>
+  </div>
+  <div class="col-md-4 footer-box">
+    <p><b>CONTACT US</b></p>
+    <p><i class="fa fa-map-marker"></i>  NHCE, Bangalore</p>
+    <p><i class="fa fa-phone"></i> +91 9876543210</p>
+    <p><i class="fa fa-envelope-o"></i>  clouds@gmail.com</p>
+  </div>
+  <div class="col-md-4 footer-box">
+    <p><b>SUBSCRIBE</b></p>
+    <input type="email" class="form-control" placeholder="Your Email">
+    <button type="button" class="btn btn-primary">Submit</button>
+  </div>
+  </div>
+    <hr>
+    <p class="copyright">Copyright © 2019 - All Rights Reserved | Arnab Bhowal</p>
+  </div>
+</section>
+
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+</body>
+</html>
